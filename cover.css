@@ -91,6 +91,20 @@ video {
   display: inline;
 }
 
+
+
+@media (min-width: 767px) {
+  .hidden-in-desktop{
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .hidden-in-mobile {
+    display: none;
+  }
+}
+
 .contact-link {
   color: rgba(255, 255, 255, .8);
 }
